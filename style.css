@@ -1,0 +1,57 @@
+/* Give your elements appropriate classnames and apply the following styles:
+
+Turn your header element into a splash page that takes up 100vw and 100vh. (Users should be able to scroll down to see the rest of your content.)
+All headings should be centered.
+Pick two fonts from Google Fonts. Apply one of them to all the heading elements and the other to all non-heading text.
+Your name should have a font size of 2em.
+The <aside> should be 35vw wide.
+The entire page should have a background color of #494949
+All text should be #f4c20c.
+The text in your footer should be centered. */
+
+header {
+
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/27/23/11/background-2687925_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #494949;
+    color: #f4c20c;
+}
+
+h1,h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside {
+    width: 35vw;
+}
+
+footer {text-align: center}
+
+div {
+    width: 30vw;
+    padding: 4rem;
+
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(73, 73, 73, 0.8);
+    padding: 4rem;
+    width: 30vw;
+}
